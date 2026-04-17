@@ -1,0 +1,29 @@
+labelme==5.8.1
+matplotlib==3.7.5
+numpy==1.24.0
+opencv_python==4.10.0.84
+Pillow==10.1.0
+
+# -i https://pypi.douban.com/simple/
+# -i https://pypi.tuna.tsinghua.edu.cn/simple
+# -i https://mirrors.aliyun.com/pypi/simple/
+
+# 豆瓣源
+-i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+# 清华大学源
+-i https://pypi.tuna.tsinghua.edu.cn/simple/ --trusted-host pypi.tuna.tsinghua.edu.cn
+
+# 阿里云源
+-i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+# 中国科学技术大学源
+-i https://pypi.mirrors.ustc.edu.cn/simple/ --trusted-host pypi.mirrors.ustc.edu.cn
+
+# 华为云源
+ -i https://repo.huaweicloud.com/repository/pypi/simple/ --trusted-host repo.huaweicloud.com
+
+# 腾讯云源
+ -i https://mirrors.cloud.tencent.com/pypi/simple/ --trusted-host mirrors.cloud.tencent.com
+# 网易源
+ -i https://mirrors.163.com/pypi/simple/ --trusted-host mirrors.163.com
